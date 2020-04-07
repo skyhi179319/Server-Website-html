@@ -1,0 +1,22 @@
+.FullProgram{
+	width: 874px;
+	height: 300px;
+	margin: auto;
+	border: 1px solid grey;
+}
+.FullProgram > .SidePanel{
+	float: left;
+	border: 1px solid red;
+	margin-top: 20px;
+    margin-left: 5px;
+    height: 250px;
+}
+.FullProgram > .MainWindow{
+	width: 525px;
+	height: 274px;
+	border: 2px solid gold;
+	margin: auto;
+    margin-top: 20px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}

@@ -1,0 +1,15 @@
+.PictureBox{
+	width: 150px;
+    height: 100px;
+    border: 1px solid gold;
+    background-color: whitesmoke;
+    display: flex;
+    margin: auto;
+    margin-top: 72px;
+}
+.PictureBox > img{
+	width: 140px;
+    height: 90px;
+    margin: auto;
+    border: 2px solid red;
+}
