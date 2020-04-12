@@ -1,0 +1,13 @@
+.DetailsBox{
+	height: 106px;
+    width: 152px;
+    background-color: cornflowerblue;
+    position: fixed;
+}
+ul{
+    list-style-type:circle;
+}
+ul > .DetailText{
+    font-size: 12px;
+    margin-left: -20px;
+}
