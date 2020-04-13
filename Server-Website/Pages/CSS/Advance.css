@@ -1,0 +1,16 @@
+.LinkButtonArea{
+	margin: auto;
+	margin-top: 5px;
+	width: 120px;
+	height: 120px;
+}
+.LinkButton{
+	display: inline-block;
+    border: 1px solid grey;
+    background-color: lightblue;
+    border-radius: 16px;
+    width: 100px;
+    height: 22px;
+    text-decoration: none;
+    text-align: center;
+}
