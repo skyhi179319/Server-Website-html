@@ -5,14 +5,79 @@ $(document).ready(function(){
 	$( "li" ).each(function() {
 		$(this).css("background-color","lightblue");
     });
+	$( ".DetailText" ).each(function() {
+		$(this).css("background-color","cornflowerblue");
+    });
 	$("#LoadAXCPictures").click(function(){
 		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/API/App/Layouts/Program/Include/AXC/HTML/Pictures.html");
+	});
+	$("#LoadImagesAXCSlideshow").click(function(){
+		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/API/App/Layouts/Program/Include/AXC/Slideshow/Slideshow.html");
 	});
 	$("#LoadImagesCapturedChart").click(function(){
 		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/API/App/Layouts/Program/Include/AXC/Charts/HTML/ImagesCaptured.html");
 	});
 	$("#LoadAboutModal").click(function(){
 		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/API/App/Layouts/Program/Modals/About/Modal.html");
+	});
+	$("#LoadSPHomePage").click(function(){
+		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/API/App/Layouts/Program/Include/SP/Home/Page.html");
+	});
+	$("#LoadSPPaperworkPage").click(function(){
+		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/API/App/Layouts/Program/Include/SP/Paperwork/Page.html");
+	});
+	$("#LoadDeveloperHomeContent").click(function(){
+		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/API/App/Layouts/Program/Include/Developer/Home/Page.html");
+	});
+	$("#LoadUserIdeasContent").click(function(){
+		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/API/App/Layouts/Program/Include/Developer/User-Ideas/Page.html");
+	});
+	$("#LoadBackgroundContentOn").click(function(){
+		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/API/Components/Elements/Background/Year/HTML/Canvas.html");
+	});
+	$("#LoadHeaderModal").click(function(){
+		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/Layouts/Info/Modals/Header/Page.html");
+	});
+	$("#LoadNavbarModal").click(function(){
+		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/Layouts/Info/Modals/Navbar/Page.html");
+	});
+	$("#LoadCSSModal").click(function(){
+		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/Layouts/Info/Modals/CSS/Page.html");
+	});
+	$("#LoadJSModal").click(function(){
+		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/Layouts/Info/Modals/JS/Page.html");
+	});
+	$("#HomePageAPI").click(function(){
+		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/API/Home-Page/Info/Page.html");
+	});
+	$("#AboutPageAPI").click(function(){
+		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/API/About-Page/Info/Page.html");
+	});
+	$("#LoadAllInternalComponents").click(function(){
+		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/API/Components/Info/Page.html");
+	});
+	$("#LoadImprovementsModal").click(function(){
+		$("#LoadContent").load("http://127.0.0.1/Server-Website/Framework/API/Improvements/Modal/Modal.html");
+	});
+	$("#LoadMenu2").click(function(){
+		$("#FullImprovements").empty();
+		$("#SmallImprovements").load("http://127.0.0.1/Server-Website/Framework/API/Improvements/Side-Menu/Half/Page.html");
+		$("#ExtraMenus").load("http://127.0.0.1/Server-Website/Framework/API/App/Layouts/Components/HTML/App-Layout.html");
+	});
+	$("#LoadBackgroundContentOff").click(function(){
+		$("#RemoveCanvas").remove();
+	});
+	$("#LightMode").click(function(){
+		$(".MainWindow").css("background-color","aliceblue");
+		$(".FullProgram").css("background-color","lavender");
+	});
+	$("#DarkMode").click(function(){
+		$(".MainWindow").css("background-color","slategrey");
+		$(".FullProgram").css("background-color","dimgrey");
+	});
+	$("#ResetMode").click(function(){
+		$(".MainWindow").css("background-color","ghostwhite");
+		$(".FullProgram").css("background-color","ghostwhite");
 	});
 	$("#Reset").click(function(){
 		$("#LoadContent").empty();
