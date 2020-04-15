@@ -1,10 +1,17 @@
+@import url("http://127.0.0.1/Server-Website/Framework/API/Components/Import/bootstrap.css"); 
 .nav {
   background-color: seagreen;
   color: white;
   overflow: hidden;
 }
-
-/* Style the links inside the navigation bar */
+.nav-tabs > li > a {
+    color: white;
+}
+.nav-tabs > li > a:hover {
+    background-color: darkseagreen;
+    color: white;
+}
+/* Style the links inside the navigation bar 
 .nav a {
   float: left;
   color: #f2f2f2;
@@ -13,9 +20,10 @@
   text-decoration: none;
   font-size: 17px;
 }
-
-/* Change the color of links on hover */
+*/
+/* Change the color of links on hover 
 .nav a:hover {
   background-color: #ddd;
   color: black;
 }
+*/
