@@ -5,6 +5,9 @@ $(document).ready(function(){
 	$( "li" ).each(function() {
 		$(this).css("background-color","lightblue");
     });
+	$("#Style1").css("background-color","inherit");
+	$("#Style2").css("background-color","inherit");
+	$("#Style3").css("background-color","inherit");
 	$( ".DetailText" ).each(function() {
 		$(this).css("background-color","cornflowerblue");
     });
