@@ -19,5 +19,5 @@ function About(evt, AboutInfo) {
   evt.currentTarget.className += " active";
 }
 $(document).ready(function(){
-	$("#ImportInnerTab").load("http://127.0.0.1/Server-Website/Framework/API/AboutPage/HTML/API.html");
+	$("#ImportInnerTab").load("http://127.0.0.1/Server-Website/Framework/API/About-Page/HTML/API.html");
 }); 
