@@ -1,9 +1,6 @@
 $(function(){
     $( "#menu2" ).menu();
 });
-$( "li" ).each(function() {
-		$(this).css("background-color","lightblue");
-});
 $( "#menu2" ).after(function() {
 	$("#ImportColorBreak2").load("http://127.0.0.1/Server-Website/Framework/API/Components/Elements/ColorBreak/ColorBreak.html");
 });

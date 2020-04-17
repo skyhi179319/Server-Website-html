@@ -207,6 +207,7 @@
 	position: absolute;
 }
 .ui-menu .ui-menu-item {
+	background-color: lightblue;
 	margin: 0;
 	cursor: pointer;
 	/* support: IE10, see #8844 */
